@@ -10,7 +10,16 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'primary':"#59E2C9",
+        'secondary': "#FAEC84",
       },
+      backgroundImage:{
+        'hero': "url('/LayerTest.png')"
+      },
+      fontFamily:{
+        source_sans: ['var(--font-source_sans)'],
+        serif4: ['var(--font-source_serif)']
+      }
     },
   },
   plugins: [],
