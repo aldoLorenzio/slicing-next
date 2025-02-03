@@ -19,6 +19,9 @@ export default {
       fontFamily:{
         source_sans: ['var(--font-source_sans)'],
         serif4: ['var(--font-source_serif)']
+      },
+      boxShadow:{
+        'skill-box' :'0px 4px 15px rgba(0, 0, 0, 0.1)'
       }
     },
   },
